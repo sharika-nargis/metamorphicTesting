@@ -56,7 +56,7 @@ project-root/
    nltk.download("wordnet")
    nltk.download("omw-1.4")
 
-📝 Usage
+## 📝 Usage
 1. Run the main test script:
    ```bash
    python metamorphic_test.py
@@ -72,7 +72,7 @@ project-root/
    Transformed: I enjoy this movie → Positive
    MR Satisfied
 
-🧠 How It Works
+## 🧠 How It Works
 Metamorphic Testing:
 Traditional testing requires labeled ground truth data. Metamorphic Testing instead defines relations that must hold true even if the input changes in certain predictable ways.
 Example MR: If we replace a word with its synonym, the overall sentiment should not change.
@@ -81,7 +81,7 @@ Synonym Replacement:
 We use NLTK WordNet to find synonyms for words in the input text.
 The transformed text is then re-submitted to the model, and predictions are compared.
 
-📈 Possible Extensions
+## 📈 Possible Extensions
 - Add more MRs:
   > Negation (I like → I do not dislike).
   > Input scaling (repeating words).
@@ -89,8 +89,8 @@ The transformed text is then re-submitted to the model, and predictions are comp
 - Generate HTML/CSV reports of test runs.
 - Integrate with CI/CD pipeline (GitHub Actions).
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 This project is for educational and testing purposes only. It uses a public sentiment analysis demo site (ClientZen) to illustrate testing concepts.
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Sharika Nargis — Software Quality Assurance Engineer
