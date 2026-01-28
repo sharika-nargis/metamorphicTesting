@@ -26,7 +26,7 @@ It automatically verifies that the model’s sentiment predictions remain consis
 ## 📂 Project Structure  
 project-root/
 │
-├── metamorphic_test.py # Main script
+├── Meta.py # Main script
 ├── requirements.txt # Dependencies
 └── README.md # This file
 
@@ -37,8 +37,8 @@ project-root/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/metamorphic-sentiment-testing.git
-   cd metamorphic-sentiment-testing
+   git clone https://github.com/yourusername/metamorphicTesting.git
+   cd metamorphicTesting
 
 2. Create and activate a virtual environment (optional but recommended):
    ```bash
@@ -59,7 +59,7 @@ project-root/
 ## 📝 Usage
 1. Run the main test script:
    ```bash
-   python metamorphic_test.py
+   python Meta.py
 
 2. The script will:
 - Open the ClientZen sentiment analysis page.
@@ -83,6 +83,7 @@ The transformed text is then re-submitted to the model, and predictions are comp
 
 ## 📈 Possible Extensions
 - Add more MRs:
+  > Emphasis words (I love → I really love).
   > Negation (I like → I do not dislike).
   > Input scaling (repeating words).
   > Word order variations.
